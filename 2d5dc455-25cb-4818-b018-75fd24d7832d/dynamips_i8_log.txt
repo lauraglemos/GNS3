@@ -1,0 +1,63 @@
+Dec 15 11:51:32.237 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 15 11:51:32.237 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 39743.
+Dec 15 11:51:32.248 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 15 11:51:32.248 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips 
+Dec 15 11:51:32.248 GENERAL: working_dir=/home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips
+Dec 15 11:51:32.249 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/c54db568-3af4-41da-b973-0e06d48dae4b 
+Dec 15 11:51:32.249 GENERAL: working_dir=/home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/c54db568-3af4-41da-b973-0e06d48dae4b
+Dec 15 11:51:32.249 HYPERVISOR: exec_cmd: vm create LAC 11 c3745 
+Dec 15 11:51:32.249 VM: VM LAC created.
+Dec 15 11:51:32.250 HYPERVISOR: exec_cmd: vm set_con_tcp_port LAC 5042 
+Dec 15 11:51:32.250 HYPERVISOR: exec_cmd: c3745 get_mac_addr LAC 
+Dec 15 11:51:32.250 HYPERVISOR: exec_cmd: vm set_disk0 LAC 4 
+Dec 15 11:51:32.250 HYPERVISOR: exec_cmd: vm set_disk1 LAC 4 
+Dec 15 11:51:32.250 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 11:51:32.250 HYPERVISOR: exec_cmd: vm set_idle_pc LAC 0x60aa28b0 
+Dec 15 11:51:32.251 HYPERVISOR: exec_cmd: vm set_ios LAC /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 11:51:32.251 HYPERVISOR: exec_cmd: c3745 set_mac_addr LAC c40b.4cac.0000 
+Dec 15 11:51:32.251 HYPERVISOR: exec_cmd: vm set_nvram LAC 256 
+Dec 15 11:51:32.251 HYPERVISOR: exec_cmd: vm set_ram LAC 192 
+Dec 15 11:51:32.251 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 11:51:32.251 HYPERVISOR: exec_cmd: vm slot_add_binding LAC 1 0 NM-1FE-TX 
+Dec 15 11:51:32.252 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 11:51:32.252 HYPERVISOR: exec_cmd: vm slot_add_binding LAC 2 0 NM-16ESW 
+Dec 15 11:51:37.172 HYPERVISOR: exec_cmd: nio create_udp udp-d7ba329c-56cd-46dc-b227-3ca319cbe09d 10040 127.0.0.1 10041 
+Dec 15 11:51:37.388 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAC 0 1 udp-d7ba329c-56cd-46dc-b227-3ca319cbe09d 
+Dec 15 11:51:37.388 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 11:51:39.278 HYPERVISOR: exec_cmd: nio create_udp udp-cf4225b5-c105-4eb8-b8c5-a535ce05ac16 10068 127.0.0.1 10069 
+Dec 15 11:51:39.279 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAC 1 0 udp-cf4225b5-c105-4eb8-b8c5-a535ce05ac16 
+Dec 15 11:51:39.279 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 11:51:45.389 HYPERVISOR: exec_cmd: nio create_udp udp-354f7dc7-c10e-43f1-80b9-5b503e2b71c7 10136 127.0.0.1 10137 
+Dec 15 11:51:45.391 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAC 0 0 udp-354f7dc7-c10e-43f1-80b9-5b503e2b71c7 
+Dec 15 11:51:45.391 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 12:03:09.326 HYPERVISOR: exec_cmd: vm set_ghost_status LAC 2 
+Dec 15 12:03:09.326 HYPERVISOR: exec_cmd: vm set_ghost_file LAC /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-192.ghost 
+Dec 15 12:03:09.327 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 12:03:09.328 HYPERVISOR: exec_cmd: vm set_config LAC configs/i11_startup-config.cfg 
+Dec 15 12:03:09.328 HYPERVISOR: exec_cmd: vm start LAC 
+Dec 15 12:57:59.017 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 12:57:59.019 HYPERVISOR: exec_cmd: vm stop LAC 
+Dec 15 12:57:59.165 VM: VM LAC shutdown.
+Dec 15 12:57:59.167 HYPERVISOR: exec_cmd: vm extract_config LAC 
+Dec 15 12:58:35.685 HYPERVISOR: exec_cmd: vm set_ios LAC /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:58:48.125 HYPERVISOR: exec_cmd: vm set_ios LAC /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:58:57.073 HYPERVISOR: exec_cmd: vm set_ios LAC /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:59:19.488 HYPERVISOR: exec_cmd: vm set_ios LAC /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 13:05:59.332 HYPERVISOR: exec_cmd: vm set_ghost_status LAC 2 
+Dec 15 13:05:59.332 HYPERVISOR: exec_cmd: vm set_ghost_file LAC /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-192.ghost 
+Dec 15 13:05:59.332 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 13:05:59.333 HYPERVISOR: exec_cmd: vm set_config LAC configs/i11_startup-config.cfg 
+Dec 15 13:05:59.333 HYPERVISOR: exec_cmd: vm start LAC 
+Dec 15 13:08:41.809 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 13:08:41.811 HYPERVISOR: exec_cmd: vm stop LAC 
+Dec 15 13:08:41.974 VM: VM LAC shutdown.
+Dec 15 13:08:41.977 HYPERVISOR: exec_cmd: vm extract_config LAC 
+Dec 15 13:10:34.822 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 13:10:34.822 HYPERVISOR: exec_cmd: vm extract_config LAC 
+Dec 15 13:10:35.559 HYPERVISOR: exec_cmd: vm get_status LAC 
+Dec 15 13:10:35.559 HYPERVISOR: exec_cmd: vm extract_config LAC 
+Dec 15 13:10:35.601 HYPERVISOR: exec_cmd: vm delete LAC 
+Dec 15 13:10:35.602 VM: VM LAC destroyed.
+Dec 15 13:10:35.602 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 15 13:10:35.978 HYPERVISOR: Stopped.
+Dec 15 13:10:35.978 GENERAL: reset done.

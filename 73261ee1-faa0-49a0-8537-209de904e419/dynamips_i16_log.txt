@@ -1,0 +1,55 @@
+Dec 15 11:51:32.589 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 15 11:51:32.589 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 48273.
+Dec 15 11:51:32.600 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 15 11:51:32.601 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips 
+Dec 15 11:51:32.601 GENERAL: working_dir=/home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips
+Dec 15 11:51:32.602 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/e4c9fe41-4f01-46b8-bad5-23bf4f7d6c60 
+Dec 15 11:51:32.602 GENERAL: working_dir=/home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/e4c9fe41-4f01-46b8-bad5-23bf4f7d6c60
+Dec 15 11:51:32.602 HYPERVISOR: exec_cmd: vm create R31 24 c3745 
+Dec 15 11:51:32.602 VM: VM R31 created.
+Dec 15 11:51:32.602 HYPERVISOR: exec_cmd: vm set_con_tcp_port R31 5095 
+Dec 15 11:51:32.602 HYPERVISOR: exec_cmd: c3745 get_mac_addr R31 
+Dec 15 11:51:32.603 HYPERVISOR: exec_cmd: vm set_disk0 R31 0 
+Dec 15 11:51:32.603 HYPERVISOR: exec_cmd: vm get_status R31 
+Dec 15 11:51:32.603 HYPERVISOR: exec_cmd: vm set_idle_pc R31 0x60aa28b0 
+Dec 15 11:51:32.604 HYPERVISOR: exec_cmd: vm set_ios R31 /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 11:51:32.604 HYPERVISOR: exec_cmd: c3745 set_mac_addr R31 c418.1fa0.0000 
+Dec 15 11:51:32.604 HYPERVISOR: exec_cmd: vm set_nvram R31 256 
+Dec 15 11:51:32.605 HYPERVISOR: exec_cmd: vm set_ram R31 192 
+Dec 15 11:51:40.698 HYPERVISOR: exec_cmd: nio create_udp udp-6f664578-5ae9-41bc-96cd-67df3b45ab11 10084 127.0.0.1 10085 
+Dec 15 11:51:40.913 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R31 0 1 udp-6f664578-5ae9-41bc-96cd-67df3b45ab11 
+Dec 15 11:51:40.914 HYPERVISOR: exec_cmd: vm get_status R31 
+Dec 15 11:51:41.426 HYPERVISOR: exec_cmd: nio create_udp udp-4ea7d050-7183-4eda-9d4e-fc376fcd6a5d 10090 127.0.0.1 10091 
+Dec 15 11:51:41.427 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R31 0 0 udp-4ea7d050-7183-4eda-9d4e-fc376fcd6a5d 
+Dec 15 11:51:41.428 HYPERVISOR: exec_cmd: vm get_status R31 
+Dec 15 12:03:10.751 HYPERVISOR: exec_cmd: vm set_ghost_status R31 2 
+Dec 15 12:03:10.751 HYPERVISOR: exec_cmd: vm set_ghost_file R31 /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-192.ghost 
+Dec 15 12:03:10.752 HYPERVISOR: exec_cmd: vm get_status R31 
+Dec 15 12:03:10.752 HYPERVISOR: exec_cmd: vm set_config R31 configs/i24_startup-config.cfg configs/i24_private-config.cfg 
+Dec 15 12:03:10.756 HYPERVISOR: exec_cmd: vm start R31 
+Dec 15 12:58:00.102 HYPERVISOR: exec_cmd: vm get_status R31 
+Dec 15 12:58:00.103 HYPERVISOR: exec_cmd: vm stop R31 
+Dec 15 12:58:00.274 VM: VM R31 shutdown.
+Dec 15 12:58:00.278 HYPERVISOR: exec_cmd: vm extract_config R31 
+Dec 15 12:58:37.753 HYPERVISOR: exec_cmd: vm set_ios R31 /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:58:50.722 HYPERVISOR: exec_cmd: vm set_ios R31 /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:59:05.900 HYPERVISOR: exec_cmd: vm set_ios R31 /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:59:26.319 HYPERVISOR: exec_cmd: vm set_ios R31 /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 13:06:00.795 HYPERVISOR: exec_cmd: vm set_ghost_status R31 2 
+Dec 15 13:06:00.796 HYPERVISOR: exec_cmd: vm set_ghost_file R31 /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-192.ghost 
+Dec 15 13:06:00.796 HYPERVISOR: exec_cmd: vm get_status R31 
+Dec 15 13:06:00.796 HYPERVISOR: exec_cmd: vm set_config R31 configs/i24_startup-config.cfg configs/i24_private-config.cfg 
+Dec 15 13:06:00.796 HYPERVISOR: exec_cmd: vm start R31 
+Dec 15 13:08:43.245 HYPERVISOR: exec_cmd: vm get_status R31 
+Dec 15 13:08:43.246 HYPERVISOR: exec_cmd: vm stop R31 
+Dec 15 13:08:43.366 VM: VM R31 shutdown.
+Dec 15 13:08:43.370 HYPERVISOR: exec_cmd: vm extract_config R31 
+Dec 15 13:10:34.884 HYPERVISOR: exec_cmd: vm get_status R31 
+Dec 15 13:10:34.885 HYPERVISOR: exec_cmd: vm extract_config R31 
+Dec 15 13:10:35.544 HYPERVISOR: exec_cmd: vm get_status R31 
+Dec 15 13:10:35.544 HYPERVISOR: exec_cmd: vm extract_config R31 
+Dec 15 13:10:35.545 HYPERVISOR: exec_cmd: vm delete R31 
+Dec 15 13:10:35.545 VM: VM R31 destroyed.
+Dec 15 13:10:35.546 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 15 13:10:35.579 HYPERVISOR: Stopped.
+Dec 15 13:10:35.579 GENERAL: reset done.

@@ -1,0 +1,54 @@
+Dec 15 11:51:32.549 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 15 11:51:32.549 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54705.
+Dec 15 11:51:32.560 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 15 11:51:32.560 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips 
+Dec 15 11:51:32.560 GENERAL: working_dir=/home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips
+Dec 15 11:51:32.560 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/d0c2a4e6-97e0-4e38-86d6-c44df866cf35 
+Dec 15 11:51:32.560 GENERAL: working_dir=/home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/d0c2a4e6-97e0-4e38-86d6-c44df866cf35
+Dec 15 11:51:32.560 HYPERVISOR: exec_cmd: vm create LNS 23 c3745 
+Dec 15 11:51:32.560 VM: VM LNS created.
+Dec 15 11:51:32.561 HYPERVISOR: exec_cmd: vm set_con_tcp_port LNS 5088 
+Dec 15 11:51:32.561 HYPERVISOR: exec_cmd: c3745 get_mac_addr LNS 
+Dec 15 11:51:32.561 HYPERVISOR: exec_cmd: vm set_disk0 LNS 0 
+Dec 15 11:51:32.562 HYPERVISOR: exec_cmd: vm get_status LNS 
+Dec 15 11:51:32.562 HYPERVISOR: exec_cmd: vm set_idle_pc LNS 0x60aa28b0 
+Dec 15 11:51:32.562 HYPERVISOR: exec_cmd: vm set_ios LNS /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 11:51:32.562 HYPERVISOR: exec_cmd: c3745 set_mac_addr LNS c417.4f30.0000 
+Dec 15 11:51:32.563 HYPERVISOR: exec_cmd: vm set_nvram LNS 256 
+Dec 15 11:51:32.563 HYPERVISOR: exec_cmd: vm set_ram LNS 192 
+Dec 15 11:51:40.156 HYPERVISOR: exec_cmd: nio create_udp udp-4ba6e26f-6d3f-4495-a863-143a2ed49cee 10078 127.0.0.1 10079 
+Dec 15 11:51:40.373 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LNS 0 0 udp-4ba6e26f-6d3f-4495-a863-143a2ed49cee 
+Dec 15 11:51:40.374 HYPERVISOR: exec_cmd: vm get_status LNS 
+Dec 15 11:51:40.681 HYPERVISOR: exec_cmd: nio create_udp udp-78f9dfa1-3db2-4ed6-8a24-17a9dc08906e 10082 127.0.0.1 10083 
+Dec 15 11:51:40.683 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LNS 0 1 udp-78f9dfa1-3db2-4ed6-8a24-17a9dc08906e 
+Dec 15 11:51:40.683 HYPERVISOR: exec_cmd: vm get_status LNS 
+Dec 15 12:03:10.589 HYPERVISOR: exec_cmd: vm set_ghost_status LNS 2 
+Dec 15 12:03:10.590 HYPERVISOR: exec_cmd: vm set_ghost_file LNS /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-192.ghost 
+Dec 15 12:03:10.591 HYPERVISOR: exec_cmd: vm get_status LNS 
+Dec 15 12:03:10.593 HYPERVISOR: exec_cmd: vm set_config LNS configs/i23_startup-config.cfg configs/i23_private-config.cfg 
+Dec 15 12:03:10.593 HYPERVISOR: exec_cmd: vm start LNS 
+Dec 15 12:58:00.081 HYPERVISOR: exec_cmd: vm get_status LNS 
+Dec 15 12:58:00.082 HYPERVISOR: exec_cmd: vm stop LNS 
+Dec 15 12:58:00.212 VM: VM LNS shutdown.
+Dec 15 12:58:00.214 HYPERVISOR: exec_cmd: vm extract_config LNS 
+Dec 15 12:58:41.493 HYPERVISOR: exec_cmd: vm set_ios LNS /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:58:53.289 HYPERVISOR: exec_cmd: vm set_ios LNS /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:59:33.256 HYPERVISOR: exec_cmd: vm set_ios LNS /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 13:06:00.598 HYPERVISOR: exec_cmd: vm set_ghost_status LNS 2 
+Dec 15 13:06:00.598 HYPERVISOR: exec_cmd: vm set_ghost_file LNS /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-192.ghost 
+Dec 15 13:06:00.599 HYPERVISOR: exec_cmd: vm get_status LNS 
+Dec 15 13:06:00.600 HYPERVISOR: exec_cmd: vm set_config LNS configs/i23_startup-config.cfg configs/i23_private-config.cfg 
+Dec 15 13:06:00.601 HYPERVISOR: exec_cmd: vm start LNS 
+Dec 15 13:08:43.083 HYPERVISOR: exec_cmd: vm get_status LNS 
+Dec 15 13:08:43.086 HYPERVISOR: exec_cmd: vm stop LNS 
+Dec 15 13:08:43.213 VM: VM LNS shutdown.
+Dec 15 13:08:43.217 HYPERVISOR: exec_cmd: vm extract_config LNS 
+Dec 15 13:10:34.884 HYPERVISOR: exec_cmd: vm get_status LNS 
+Dec 15 13:10:34.884 HYPERVISOR: exec_cmd: vm extract_config LNS 
+Dec 15 13:10:35.569 HYPERVISOR: exec_cmd: vm get_status LNS 
+Dec 15 13:10:35.570 HYPERVISOR: exec_cmd: vm extract_config LNS 
+Dec 15 13:10:35.613 HYPERVISOR: exec_cmd: vm delete LNS 
+Dec 15 13:10:35.613 VM: VM LNS destroyed.
+Dec 15 13:10:35.613 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 15 13:10:36.017 HYPERVISOR: Stopped.
+Dec 15 13:10:36.017 GENERAL: reset done.

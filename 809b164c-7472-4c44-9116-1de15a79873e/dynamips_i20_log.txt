@@ -1,0 +1,57 @@
+Dec 15 11:51:32.757 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 15 11:51:32.757 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57545.
+Dec 15 11:51:32.768 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 15 11:51:32.769 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips 
+Dec 15 11:51:32.769 GENERAL: working_dir=/home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips
+Dec 15 11:51:32.769 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/7b0a33ec-2677-4e1f-a295-194cc4d0bc9a 
+Dec 15 11:51:32.769 GENERAL: working_dir=/home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/7b0a33ec-2677-4e1f-a295-194cc4d0bc9a
+Dec 15 11:51:32.769 HYPERVISOR: exec_cmd: vm create R22 29 c3745 
+Dec 15 11:51:32.776 VM: VM R22 created.
+Dec 15 11:51:32.777 HYPERVISOR: exec_cmd: vm set_con_tcp_port R22 5099 
+Dec 15 11:51:32.777 HYPERVISOR: exec_cmd: c3745 get_mac_addr R22 
+Dec 15 11:51:32.777 HYPERVISOR: exec_cmd: vm set_disk0 R22 0 
+Dec 15 11:51:32.778 HYPERVISOR: exec_cmd: vm get_status R22 
+Dec 15 11:51:32.778 HYPERVISOR: exec_cmd: vm set_idle_pc R22 0x60aa28b0 
+Dec 15 11:51:32.779 HYPERVISOR: exec_cmd: vm set_ios R22 /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 11:51:32.779 HYPERVISOR: exec_cmd: c3745 set_mac_addr R22 c41d.4abc.0000 
+Dec 15 11:51:32.780 HYPERVISOR: exec_cmd: vm set_nvram R22 256 
+Dec 15 11:51:32.780 HYPERVISOR: exec_cmd: vm set_ram R22 192 
+Dec 15 11:51:32.780 HYPERVISOR: exec_cmd: vm get_status R22 
+Dec 15 11:51:32.780 HYPERVISOR: exec_cmd: vm slot_add_binding R22 1 0 NM-1FE-TX 
+Dec 15 11:51:42.718 HYPERVISOR: exec_cmd: nio create_udp udp-f45d06a2-83d9-4fda-9714-0c068a138532 10106 127.0.0.1 10107 
+Dec 15 11:51:42.936 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R22 0 1 udp-f45d06a2-83d9-4fda-9714-0c068a138532 
+Dec 15 11:51:42.936 HYPERVISOR: exec_cmd: vm get_status R22 
+Dec 15 11:51:43.739 HYPERVISOR: exec_cmd: nio create_udp udp-a80f4bb9-be08-484d-86ab-97386a0a9f99 10114 127.0.0.1 10115 
+Dec 15 11:51:43.741 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R22 0 0 udp-a80f4bb9-be08-484d-86ab-97386a0a9f99 
+Dec 15 11:51:43.741 HYPERVISOR: exec_cmd: vm get_status R22 
+Dec 15 12:03:11.025 HYPERVISOR: exec_cmd: vm set_ghost_status R22 2 
+Dec 15 12:03:11.028 HYPERVISOR: exec_cmd: vm set_ghost_file R22 /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-192.ghost 
+Dec 15 12:03:11.033 HYPERVISOR: exec_cmd: vm get_status R22 
+Dec 15 12:03:11.033 HYPERVISOR: exec_cmd: vm set_config R22 configs/i29_startup-config.cfg 
+Dec 15 12:03:11.033 HYPERVISOR: exec_cmd: vm start R22 
+Dec 15 12:58:00.440 HYPERVISOR: exec_cmd: vm get_status R22 
+Dec 15 12:58:00.441 HYPERVISOR: exec_cmd: vm stop R22 
+Dec 15 12:58:00.558 VM: VM R22 shutdown.
+Dec 15 12:58:00.578 HYPERVISOR: exec_cmd: vm extract_config R22 
+Dec 15 12:58:34.293 HYPERVISOR: exec_cmd: vm set_ios R22 /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:58:46.942 HYPERVISOR: exec_cmd: vm set_ios R22 /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:59:06.980 HYPERVISOR: exec_cmd: vm set_ios R22 /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 12:59:12.807 HYPERVISOR: exec_cmd: vm set_ios R22 /home/juan/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 15 13:06:01.063 HYPERVISOR: exec_cmd: vm set_ghost_status R22 2 
+Dec 15 13:06:01.064 HYPERVISOR: exec_cmd: vm set_ghost_file R22 /home/juan/Escritorio/ATR_ENTREGA_FINALISIMA/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-192.ghost 
+Dec 15 13:06:01.064 HYPERVISOR: exec_cmd: vm get_status R22 
+Dec 15 13:06:01.064 HYPERVISOR: exec_cmd: vm set_config R22 configs/i29_startup-config.cfg 
+Dec 15 13:06:01.065 HYPERVISOR: exec_cmd: vm start R22 
+Dec 15 13:08:43.546 HYPERVISOR: exec_cmd: vm get_status R22 
+Dec 15 13:08:43.548 HYPERVISOR: exec_cmd: vm stop R22 
+Dec 15 13:08:43.701 VM: VM R22 shutdown.
+Dec 15 13:08:43.707 HYPERVISOR: exec_cmd: vm extract_config R22 
+Dec 15 13:10:34.934 HYPERVISOR: exec_cmd: vm get_status R22 
+Dec 15 13:10:34.935 HYPERVISOR: exec_cmd: vm extract_config R22 
+Dec 15 13:10:35.466 HYPERVISOR: exec_cmd: vm get_status R22 
+Dec 15 13:10:35.466 HYPERVISOR: exec_cmd: vm extract_config R22 
+Dec 15 13:10:35.467 HYPERVISOR: exec_cmd: vm delete R22 
+Dec 15 13:10:35.467 VM: VM R22 destroyed.
+Dec 15 13:10:35.467 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 15 13:10:35.478 HYPERVISOR: Stopped.
+Dec 15 13:10:35.478 GENERAL: reset done.
